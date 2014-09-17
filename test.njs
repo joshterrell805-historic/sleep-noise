@@ -55,7 +55,7 @@ function halfStepsFromA4(note, scale) {
 }
 
 
-
+// http://www.atmos.washington.edu/~breth/classes/AM582/lect/lect8-notes.pdf
 function redNoise(r) {
    var lastRed = undefined;
    var rM = Math.pow(1.0 - Math.pow(r, 2.0), 0.5);
